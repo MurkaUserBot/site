@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="/static/style.css">
+        <title>MurkaUserBot Install</title>
+    </head>
+    
+    <body>
+        <h1>MurkaUserBot Installation</h1>
+        <p>Simple, guided installation with Heroku:</p>
+        <p class="codebox">
+            bash -c '. <('"$(command -v curl >/dev/null && echo 'curl -Ls' || echo 'wget -qO-')"' https://raw.githubusercontent.com/MurkaUserBot/MurkaUserBot/master/install.sh) '"$*"
+        </p>
+        <br>
+        <p>Default installation:</p>
+        <p class="codebox">
+            git clone https://github.com/MurkaUserBot <br>
+            cd MurkaUserBot <br>
+            python3 -m friendly-telegram
+        </p>
+    </body>
+</html>
