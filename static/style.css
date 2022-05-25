@@ -5,3 +5,12 @@ html {
     background-color: #191919;
     color: white;
 }
+
+.codebox {
+    background-color: #252525;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #262626;
+    font-family: 'Inconsolata', monospace;
+}
