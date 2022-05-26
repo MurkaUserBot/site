@@ -11,7 +11,7 @@ def favicon():
     return redirect('/static/favicon.ico')
 
 @app.route('/static/<file>')
-def favicon(file):
+def sendfile(file):
     return app.send_static_file(file)
 
 @app.route("/changelang/<lang>")
