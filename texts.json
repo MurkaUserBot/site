@@ -1,0 +1,47 @@
+{
+    "en": {
+    "text1": "A fast, secure Telegram userbot that is based on FTG.",
+    "text2": "Simple to install.",
+    "text3": "Full compatibility with FTG.",
+    "help": "Our chats with help:",
+    "ruschat": "Russian chat",
+    "engchat": "English chat",
+    "text4": "Instructions on installation can be found",
+    "text5": "there",
+    "github": "This webpage is opensource and the source code can be found on",
+    "title": "MurkaUserBot Installation",
+    "default": "Default installation:",
+    "installed1": "Once installed, you have to write",
+    "installed2": "in any Telegram chat to see commands available."
+    },
+    "ru": {
+        "text1": "Быстрый, безопасный Telegram-юзербот, основанный на FTG.",
+        "text2": "Простая, удобная установка.",
+        "text3": "Полная совместимость с FTG.",
+        "help": "Наши чаты с помощью:",
+        "ruschat": "Чат на русском",
+        "engchat": "Чат на английском",
+        "text4": "Инструкции по установке находятся",
+        "text5": "здесь",
+        "github": "Эта страница является открытой, исходный код можно найти на",
+        "title": "Установка MurkaUserBot",
+        "default": "Установка по умолчанию:",
+        "installed1": "После установки, вы можете написать",
+        "installed2": "в любой чат Telegram, чтобы увидеть доступные команды."
+    },
+    "ua": {
+        "text1": "Швидкий, безпечний Telegram-юзербот, базований на FTG.",
+        "text2": "Просте, зручне встановлення.",
+        "text3": "Повна сумісність з FTG.",
+        "help": "Наші чати з допомогою:",
+        "ruschat": "Чат на російській",
+        "engchat": "Чат на англійській",
+        "text4": "Інструкції по встановленню знаходяться",
+        "text5": "тут",
+        "github": "Ця сторінка є відкритою, код можна знайти на",
+        "title": "Встановлення MurkaUserBot",
+        "default": "Встановлення за замовчуванням:",
+        "installed1": "Після встановлення, ви можете написати",
+        "installed2": "у будь-якому чаті Telegram, щоб побачити доступні команди."
+    }
+}
