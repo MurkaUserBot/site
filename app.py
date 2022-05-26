@@ -6,6 +6,9 @@ app.config['SECRET_KEY'] = "Secret key for flask app."
 
 texts = json.loads(open('texts.json', 'r').read())
 
+@app.route('/favicon.ico')
+def favicon():
+    return redirect('/static/favicon.ico')
 
 @app.route('/static/<file>')
 def favicon(file):
