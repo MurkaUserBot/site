@@ -14,7 +14,6 @@
         <h1>MurkaUserBot</h1>
 
         <p class="codebox">
-            MurkaUserBot <br>
             &#128640; {{ text1 }} <br>
             &#9989; {{ text2 }} <br>
             &#9883;&#65039; {{ text3 }} <br>
@@ -22,8 +21,15 @@
 
         <h1>{{ help }}</h1>
         <p class="codebox">
-            <a href="https://t.me/MurkaUserChat_UA">@MurkaUserChat_UA</a> -- {{ ruschat }} <br>
-            <a href="https://t.me/murka_en">@murka_en</a> -- {{ engchat }} <br>
+            <button class="tgbutton" onclick="window.location.href='https://t.me/MurkaUserChat_UA'">
+                <i class="fa fa-telegram"></i>
+                @MurkaUserChat_UA
+            </button>
+            <br>
+            <button class="tgbutton" onclick="window.location.href='https://t.me/murka_en'">
+                <i class="fa fa-telegram"></i>
+                @murka_en
+            </button>
         </p>
         
         <button onclick="window.location.href='/install'">{{ install }}</button>

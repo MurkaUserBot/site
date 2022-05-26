@@ -16,29 +16,31 @@ def sendfile(file):
 
 @app.route("/changelang/<lang>")
 def changelang(lang):
-    session['lang'] = lang
+    langs = ['ru', 'en', 'ua']
+    if lang in langs:
+        session['lang'] = lang
     return redirect('/')
 
 @app.route('/')
 def index():
+    session['lang'] = "en"
     lang = session.get('lang')
 
     text1 = texts[lang]['text1']
     text2 = texts[lang]['text2']
     text3 = texts[lang]['text3']
     help = texts[lang]['help']
-    ruschat = texts[lang]['ruschat']
-    engchat = texts[lang]['engchat']
     text4 = texts[lang]['text4']
     text5 = texts[lang]['text5']
     wbgh = texts[lang]['wbgh']
     ubgh = texts[lang]['ubgh']
     install = texts[lang]['install']
 
-    return render_template('index.html', text1=text1, text2=text2, 
-                            text3=text3, help=help,
-                            ruschat=ruschat, engchat=engchat,
-                            text4=text4, text5=text5, wbgh=wbgh, ubgh=ubgh, install=install)
+    return render_template('index.html', text1=text1,
+                            text2=text2, text3=text3,
+                            help=help, text4=text4,
+                            text5=text5, wbgh=wbgh,
+                            ubgh=ubgh, install=install)
 
 @app.route('/install')
 def install():

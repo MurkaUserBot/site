@@ -38,3 +38,13 @@ button:hover {
     color: black;
     transition: all 0.2s ease-in-out;
 }
+
+tgbutton {
+    background-color: #389ce9;
+    border: 1px solid #389ce9;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+}
