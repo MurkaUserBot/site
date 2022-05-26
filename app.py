@@ -23,7 +23,10 @@ def changelang(lang):
 
 @app.route('/')
 def index():
-    session['lang'] = "en"
+    
+    if not session.get('lang'):
+        session['lang'] = "en"
+
     lang = session.get('lang')
 
     text1 = texts[lang]['text1']
