@@ -31,6 +31,7 @@ button {
     font-family: 'Inconsolata', monospace;
     transition: all 0.2s ease-in-out;
 }
+
 button:hover {
     background-color: #8a8a8a;
     border: 1px solid #252525;

@@ -31,13 +31,14 @@ def index():
     engchat = texts[lang]['engchat']
     text4 = texts[lang]['text4']
     text5 = texts[lang]['text5']
-    github = texts[lang]['github']
+    wbgh = texts[lang]['wbgh']
+    ubgh = texts[lang]['ubgh']
     install = texts[lang]['install']
 
     return render_template('index.html', text1=text1, text2=text2, 
                             text3=text3, help=help,
                             ruschat=ruschat, engchat=engchat,
-                            text4=text4, text5=text5, github=github, install=install)
+                            text4=text4, text5=text5, wbgh=wbgh, ubgh=ubgh, install=install)
 
 @app.route('/install')
 def install():
