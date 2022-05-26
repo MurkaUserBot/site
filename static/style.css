@@ -20,3 +20,20 @@ hr {
     border-bottom: 1px solid #606060;
     margin: 10px 0;
 }
+
+button {
+    background-color: #252525;
+    border: 1px solid #262626;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    background-color: #8a8a8a;
+    border: 1px solid #252525;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}

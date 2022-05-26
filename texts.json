@@ -3,7 +3,7 @@
     "text1": "A fast, secure Telegram userbot that is based on FTG.",
     "text2": "Simple to install.",
     "text3": "Full compatibility with FTG.",
-    "help": "Our chats with help:",
+    "help": "Our support chats:",
     "ruschat": "Russian chat",
     "engchat": "English chat",
     "text4": "Instructions on installation can be found",
@@ -12,13 +12,14 @@
     "title": "MurkaUserBot Installation",
     "default": "Default installation:",
     "installed1": "Once installed, you have to write",
-    "installed2": "in any Telegram chat to see commands available."
+    "installed2": "in any Telegram chat to see commands available.",
+    "install": "Install"
     },
     "ru": {
         "text1": "Быстрый, безопасный Telegram-юзербот, основанный на FTG.",
         "text2": "Простая, удобная установка.",
         "text3": "Полная совместимость с FTG.",
-        "help": "Наши чаты с помощью:",
+        "help": "Наши чаты поддержки:",
         "ruschat": "Чат на русском",
         "engchat": "Чат на английском",
         "text4": "Инструкции по установке находятся",
@@ -27,7 +28,8 @@
         "title": "Установка MurkaUserBot",
         "default": "Установка по умолчанию:",
         "installed1": "После установки, вы можете написать",
-        "installed2": "в любой чат Telegram, чтобы увидеть доступные команды."
+        "installed2": "в любой чат Telegram, чтобы увидеть доступные команды.",
+        "install": "К установке"
     },
     "ua": {
         "text1": "Швидкий, безпечний Telegram-юзербот, базований на FTG.",
@@ -42,6 +44,7 @@
         "title": "Встановлення MurkaUserBot",
         "default": "Встановлення за замовчуванням:",
         "installed1": "Після встановлення, ви можете написати",
-        "installed2": "у будь-якому чаті Telegram, щоб побачити доступні команди."
+        "installed2": "у будь-якому чаті Telegram, щоб побачити доступні команди.",
+        "install": "До встановлення"
     }
 }

@@ -29,11 +29,12 @@ def index():
     text4 = texts[lang]['text4']
     text5 = texts[lang]['text5']
     github = texts[lang]['github']
+    install = texts[lang]['install']
 
     return render_template('index.html', text1=text1, text2=text2, 
                             text3=text3, help=help,
                             ruschat=ruschat, engchat=engchat,
-                            text4=text4, text5=text5, github=github)
+                            text4=text4, text5=text5, github=github, install=install)
 
 @app.route('/install')
 def install():
