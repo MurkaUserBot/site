@@ -1,8 +1,8 @@
-from quart import redirect, render_template, Quart, session
+from flask import redirect, render_template, Flask, session
 import json
 
-app = Quart(__name__)
-app.config['SECRET_KEY'] = "Secret key for quart app."
+app = Flask(__name__)
+app.config['SECRET_KEY'] = "Secret key for flask app."
 
 texts = json.loads(open('texts.json', 'r').read())
 
