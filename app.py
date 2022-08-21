@@ -2,6 +2,7 @@ from quart import redirect, render_template, Quart, session
 import json
 
 app = Quart(__name__)
+app.config['SECRET_KEY'] = "Secret key for quart app."
 
 texts = json.loads(open('texts.json', 'r').read())
 
